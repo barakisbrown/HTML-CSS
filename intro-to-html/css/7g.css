@@ -1,0 +1,33 @@
+.cat {
+    vertical-align: middle;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.txtbox {
+    font-size: 18px;
+    vertical-align: middle;
+    width:400px;
+    border: none;
+}
+
+.tweet {
+    vertical-align: middle;
+    padding: 10px 16px 10px 16px;
+    color: white;
+    border-radius: 18px;
+    background-color: rgb(29, 155, 240);
+    border-color: lightblue;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+
+.tweet:hover
+{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
