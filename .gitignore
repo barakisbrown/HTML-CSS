@@ -1,7 +1,7 @@
 #VISUAL CODE SETTINGS
 .vscode/settings.json
 # Ignore Mac system files
-.DS_store
+.DS_Store
 
 # Ignore node_modules folder
 node_modules
