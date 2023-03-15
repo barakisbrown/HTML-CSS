@@ -2,19 +2,66 @@ body {
     height: 1000px;
 }
 
-.outer-sidebar {
+div {
+    font-family: Arial;
+}
+
+.outer {
     position: fixed;
     top:0;
     left:0;
     bottom:0;
-    width:110px;
+    width: 132px;
     background-color: rgb(33,33,33);
+    padding: 10px 10px 10px;
 }
+
 
 .cat-pictures {
-
+    
 }
 
-.inner-sidebar {
+.inner {
     background-color: rgb(55,55,55);
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:132px;
+    width:315px;
+    color: grey;
+}
+
+.animal {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    object-fit: cover;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.word {
+    font-size: 22px;
+    color:white;
+}
+
+.plus {
+    color: rgb(150,150,150);
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.channel {
+    margin-left: 20px;
+    margin-bottom: 16px;
+    font-size: 30px;
+    color:  rgb(150,150,150);
 }
