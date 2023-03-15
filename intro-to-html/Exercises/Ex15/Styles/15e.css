@@ -1,0 +1,20 @@
+.shoes 
+{
+    height: 300px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.percent-off {
+    position: absolute;
+    top:5px;
+    right:0;
+    color: white;
+    background-color: black;
+    font-family: Arial;
+    font-size: 16px;
+    padding:10px 20px 10px 20px
+}

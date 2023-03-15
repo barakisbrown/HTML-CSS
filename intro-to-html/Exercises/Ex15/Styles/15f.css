@@ -1,0 +1,45 @@
+body {
+    height: 3000px;
+}
+
+.shoes 
+{
+    height: 300px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.percent-off {
+    position: absolute;
+    top:5px;
+    right:0;
+    color: white;
+    background-color: black;
+    font-family: Arial;
+    font-size: 16px;
+    padding:10px 20px 10px 20px
+}
+
+.Cart {
+    position: absolute;
+    bottom:0;
+    height: 100px;
+    width: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240,240,240,0.5);
+    
+}
+
+.add {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 30px 15px 30px;
+
+}
