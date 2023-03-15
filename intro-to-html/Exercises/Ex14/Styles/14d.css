@@ -1,0 +1,47 @@
+body {
+    height: 3000px;
+}
+
+.right-sidebar {
+    background-color: green;
+    color: white;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.subject {
+    font-family: Arial;
+    color: gray;
+    margin-bottom: 12px;
+}

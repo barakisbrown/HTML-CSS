@@ -1,0 +1,20 @@
+body {
+    height: 1000px;
+}
+
+.outer-sidebar {
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    width:110px;
+    background-color: rgb(33,33,33);
+}
+
+.cat-pictures {
+
+}
+
+.inner-sidebar {
+    background-color: rgb(55,55,55);
+}
